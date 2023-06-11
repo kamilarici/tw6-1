@@ -9,7 +9,6 @@ buttonConvert.addEventListener("click", () => {
   //   console.log(deger);
   pWrite.textContent = cevir(deger);
   inputArea.value = "";
-  console.log(inputArea.value);
 });
 console.log(inputArea.value);
 const cevir = () => {
