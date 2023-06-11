@@ -10,7 +10,7 @@ buttonConvert.addEventListener("click", () => {
   pWrite.textContent = cevir(deger);
   inputArea.value = "";
 });
-console.log(inputArea.value);
+
 const cevir = () => {
   const words = deger.split(" "); //? değeri  arraye çeviriyor
 
@@ -22,13 +22,14 @@ const cevir = () => {
   }
   return birlestirs.join(" ");
 };
-
+//? *******************
 // let deger = "ben bugün okula gittim";
 // console.log(deger.split(" "));
 // let degerSplit = deger.split(" ");
 // let degerSplit1 = degerSplit[1];
 // console.log(degerSplit1, typeof degerSplit1);
 // console.log(degerSplit1.charAt(0).toUpperCase() + degerSplit1.slice(1));
+//? ***************************
 // const text = document.getElementById("text");
 // const alertBox = document.getElementById("alert");
 // const submitBtn = document.getElementById("submit");
